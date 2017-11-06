@@ -1,0 +1,5 @@
+package: personal/golang-jwt
+import:
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/go-sql-driver/mysql
+- package: github.com/op/go-logging

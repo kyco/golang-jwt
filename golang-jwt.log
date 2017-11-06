@@ -1,0 +1,22 @@
+[32m2017-11-06 18:34:16.36 main ▶[0m Running on port :8080
+[32m2017-11-06 19:20:58.557 main ▶[0m Running on port :8080
+[31m2017-11-06 19:21:23.612 validateJWTAPIEndPoint ▶[0m EOF
+[33m2017-11-06 19:21:23.612 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 142.822µs
+[31m2017-11-06 19:24:12.225 validateJWTAPIEndPoint ▶[0m json: cannot unmarshal string into Go value of type main.StaticStruct
+[33m2017-11-06 19:24:12.226 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 12.206878ms
+[31m2017-11-06 19:24:19.935 validateJWTAPIEndPoint ▶[0m json: cannot unmarshal string into Go value of type main.StaticStruct
+[33m2017-11-06 19:24:19.936 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 1.006356ms
+[31m2017-11-06 19:24:41.298 validateJWTAPIEndPoint ▶[0m unexpected EOF
+[33m2017-11-06 19:24:41.298 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 334.251µs
+[31m2017-11-06 19:24:47.546 validateJWTAPIEndPoint ▶[0m signing method (alg) is unavailable.
+[33m2017-11-06 19:24:47.546 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 32.962481ms
+[31m2017-11-06 19:25:16.051 validateJWTAPIEndPoint ▶[0m signing method (alg) is unavailable.
+[33m2017-11-06 19:25:16.052 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 2.089498ms
+[31m2017-11-06 19:25:17.384 validateJWTAPIEndPoint ▶[0m signing method (alg) is unavailable.
+[33m2017-11-06 19:25:17.384 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 332.425µs
+[32m2017-11-06 19:25:48.509 func1 ▶[0m  <-- POST /jwt/login/ | HTTP 200 OK in 11.312997ms
+[32m2017-11-06 19:29:06.241 main ▶[0m Running on port :8080
+[32m2017-11-06 19:29:07.237 func1 ▶[0m  <-- POST /jwt/login/ | HTTP 200 OK in 485.747µs
+[31m2017-11-06 19:29:21.187 validateJWTAPIEndPoint ▶[0m invalid character '{' looking for beginning of object key string
+[33m2017-11-06 19:29:21.188 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 400 Bad Request in 301.787µs
+[32m2017-11-06 19:29:30.569 func1 ▶[0m  <-- POST /jwt/validate/ | HTTP 200 OK in 118.742µs
